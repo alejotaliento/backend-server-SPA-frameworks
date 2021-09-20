@@ -1,14 +1,18 @@
 {
   "name": "back-end",
   "version": "1.0.0",
+  "author": "Alejo Taliento",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alejotaliento/backend-server-SPA-frameworks.git"
+  },
   "description": "Api RESTful for frameworks-js",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alejo Taliento",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "connect-multiparty": "^2.2.0",
